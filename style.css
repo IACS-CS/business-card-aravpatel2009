@@ -1,34 +1,36 @@
-
- 
-
- 
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Kurale&display=swap');
 
 ul {
   padding-inline-start: 15px;
-  font-size: 10px;
-  padding-top: ;
-
-  
+  font-size: 11px;
+  margin-top: 35px;
+  border:solid;
+  border-;
+text-shadow: 4px 4px 4px rgba(247, 246, 246, 0.5);
 }
 h1 {
-  font-size: 15px;
-  }
-h2,h3 { 
+  font-size: 30px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-shadow: 4px 4px 4px rgba(247, 246, 246, 0.5);
+}
+h2,h3 {
   margin-block-start: 0;
   margin-block-end: 0;
-   font-size: 11px;
-   ;
+  font-size: 13px;
+  padding-top: 0px;
+  text-shadow: 4px 4px 4px rgba(1, 0, 0, 0.5);
 }
 
 
-.card-1 { 
- color: rgb(255, 255, 255);
+.card-1 {
 
-text-shadow: 1px 1px #222;
-    background-image: url(imagebackround.jpg);
-    background-size: cover; 
-   background-position: center; 
-    background-repeat: no-repeat; 
-    height: 
-
+  background-image: url(imagebackround.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   color: white;
+     font-family: "Kurale", serif;
+     padding: 5px;
+     
 }
