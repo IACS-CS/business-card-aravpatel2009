@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Kurale&display=swap');
 
-ul {
+.card-1 ul {
   padding-inline-start: 15px;
   font-size: 11px;
   margin-top: 35px;
-  border:solid;
-  border-right:-10px;
+  
 text-shadow: 4px 4px 4px rgba(247, 246, 246, 0.5);
 }
-h1 {
+.card-1 h1 {
+  border: solid rgb(253, 253, 253);
   font-size: 30px;
   margin-block-end: 0;
   margin-block-start: 0;
   text-shadow: 4px 4px 4px rgba(247, 246, 246, 0.5);
 }
-h2,h3 {
+.card-1 h2,.card-1 h3 {
   margin-block-start: 0;
   margin-block-end: 0;
   font-size: 13px;
   padding-top: 0px;
-  text-shadow: 4px 4px 4px rgba(1, 0, 0, 0.5);
+  text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
 
@@ -34,3 +34,19 @@ h2,h3 {
      padding: 5px;
      
 }
+.card-2 {
+  display: flex;
+  flex-wrap: wrap;                /* Ensures the items can wrap */
+  justify-content: space-between; /* Adds space between items horizontally */
+  align-items: flex-start;        /* Aligns items vertically (optional) */
+}
+  .card-2 {
+    font-size: 20px;
+    background-image: url(imagebackround.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgba(4, 0, 0, 0.5);
+
+  }
