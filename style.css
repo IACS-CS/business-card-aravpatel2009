@@ -4,22 +4,20 @@
   padding-inline-start: 15px;
   font-size: 11px;
   margin-top: 35px;
-  
-text-shadow: 4px 4px 4px rgba(247, 246, 246, 0.5);
 }
+
 .card-1 h1 {
   border: solid rgb(253, 253, 253);
   font-size: 30px;
   margin-block-end: 0;
   margin-block-start: 0;
-  text-shadow: 4px 4px 4px rgba(247, 246, 246, 0.5);
 }
 .card-1 h2,.card-1 h3 {
   margin-block-start: 0;
   margin-block-end: 0;
   font-size: 13px;
   padding-top: 0px;
-  text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -29,24 +27,39 @@ text-shadow: 4px 4px 4px rgba(247, 246, 246, 0.5);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-   color: white;
-     font-family: "Kurale", serif;
+  font-family: "Kurale", serif;
      padding: 5px;
-     
+     text-shadow: 1px 1px 0px rgb(0 0 0);
+color: aliceblue;
+}.filter {
+    backdrop-filter: blur(1px);
 }
+
+
+
 .card-2 {
-  display: flex;
-  flex-wrap: wrap;                /* Ensures the items can wrap */
-  justify-content: space-between; /* Adds space between items horizontally */
-  align-items: flex-start;        /* Aligns items vertically (optional) */
-}
-  .card-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
     font-size: 20px;
     background-image: url(imagebackround.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: rgb(255, 255, 255);
-    text-shadow: 4px 4px 4px rgba(4, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgb(0 0 0);
+    padding: 7px;
+    font-family: "Kurale", serif;
+}
 
-  }
+.card-2 filter {
+    backdrop-filter: blur(1px);
+}
+.title {
+  border: solid;
+  font-size: 30px;
+ }
+ .card-2 ul {
+  font-size: 15px;
+ }
